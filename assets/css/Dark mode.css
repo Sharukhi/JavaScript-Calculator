@@ -1,7 +1,7 @@
 .container {
   max-width: 400px;
   margin: 10vh auto 0 auto;
-  box-shadow: 0px 0px 43px 17px rgba(114, 110, 110, 0.157);
+  box-shadow: 0px 0px 43px 17px rgba(70, 70, 70, 0.294);
   color: aliceblue;
 }
 body {
@@ -38,12 +38,53 @@ body {
 }
 
 #equal {
-  background-color: rgb(42, 42, 42);
+  background-color: rgba(251, 171, 0, 0.52);
   color: white;
+}
+span {
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+span a {
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform 0.25s;
+  font-family: "Montserrat", sans-serif;
+}
+span a:before,
+span a:after {
+  position: absolute;
+  content: "Light Mode";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+span a:before {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  transform: rotateY(0deg) translateZ(25px);
+}
+span a:after {
+  color: rgb(255, 255, 255);
+  transform: rotateX(90deg) translateZ(25px);
+}
+span a:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
 }
 
 .button:hover {
-  background-color: #323330;
+  background-color: #000000;
   color: white;
   transition: 0.5s ease-in-out;
 }

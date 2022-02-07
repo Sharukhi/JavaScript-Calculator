@@ -4,7 +4,8 @@
 
 
 
--🔗 Visit Here https://dark-light-calculator.web.app/
+-🔗 <a href="https://dark-light-calculator.web.app/" target="_blank">dark-light-calculator.web.app</a>
+
 
 
 

@@ -9,5 +9,5 @@
 
 
 
--<a href='https://www.freepik.com/psd/background'>Background psd created by user16289356 - www.freepik.com</a>
+-mockup credit: <a href='https://www.freepik.com/psd/background'>www.freepik.com</a>
 

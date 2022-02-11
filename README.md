@@ -4,7 +4,7 @@
 
 
 
--🔗 <a href="https://openabacus.web.app/">openabacus.web.app/</a>
+-🔗 <a href="https://openabacus.web.app/">openabacus.web.app</a>
 
 
 
